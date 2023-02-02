@@ -4,6 +4,8 @@
 ### macOS ###
 # General
 .idea
+out/
+target/
 .DS_Store
 .AppleDouble
 .LSOverride
@@ -65,9 +67,6 @@ DerivedData/
 
 ## App packaging
 *.iws
-*.xml
-*.workspace.xml
-*.tasks.xml
 *.ipa
 *.dSYM.zip
 *.dSYM
