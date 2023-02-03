@@ -442,10 +442,12 @@ h1.company-name {
       grid-column: 1/-1;
       grid-row: 1/2;
     }
+
     &:nth-child(2) {
       grid-column: 1/-1;
       grid-row: 2/3;
     }
+
     &:nth-child(3) {
       grid-column: 1/-1;
       grid-row: 3/4;
@@ -459,13 +461,13 @@ h1.company-name {
     border: 1px solid $gold;
     background: none;
     font-weight: bold;
-    color:$gold;
+    color: $gold;
     cursor: pointer;
     transition: background-color .3s, color .3s;
 
     &:hover, &:focus {
       outline: none;
-      color:$dark;
+      color: $dark;
       background-color: $gold;
     }
   }
