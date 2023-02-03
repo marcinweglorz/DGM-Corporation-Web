@@ -77,7 +77,7 @@
     }
   }
 
-  .contaact {
+  .contact {
 
     &__form {
 
@@ -89,10 +89,12 @@
         grid-column: 1/4;
         grid-row: 1/2;
       }
+
       &:nth-child(2) {
         grid-column: 4/7;
         grid-row: 1/2;
       }
+
       &:nth-child(3) {
         grid-column: 1/-1;
         grid-row: 2/3;
